@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Safety Check",
+  "version": "1.0",
+  "description": "Prevents sending emails with missing subjects or missing attachments.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["extension.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

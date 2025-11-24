@@ -1,0 +1,4 @@
+{
+  "name": "Gmail Safety Extension",
+  "description": "A Chrome Extension for Gmail that prevents sending emails with missing subjects or attachments, featuring a simulator for testing."
+}
